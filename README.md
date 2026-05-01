@@ -2,7 +2,7 @@
 
 A modern, multi-page portfolio for **Nqobizitha Mbuyisa**, Junior Software Engineer specializing in Java backend development. Built with React + FastAPI + MongoDB, plus EmailJS for direct contact-form delivery.
 
-> Live: _add your Vercel URL after deploy_
+> future-fs-01-git-main-nqobizitha04mbuyisas-projects.vercel.app
 
 ---
 
