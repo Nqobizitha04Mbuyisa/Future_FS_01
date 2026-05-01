@@ -1,0 +1,8 @@
+.App {
+  min-height: 100vh;
+}
+
+/* Smooth transitions for interactive elements only (not universal) */
+button, a, input, textarea, select {
+  transition: color 200ms ease, background-color 200ms ease, border-color 200ms ease, opacity 200ms ease, box-shadow 200ms ease;
+}
