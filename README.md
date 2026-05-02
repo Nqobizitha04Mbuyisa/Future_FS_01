@@ -6,7 +6,7 @@ A modern, multi-page portfolio for **Nqobizitha Mbuyisa**, Junior Software Engin
 
 ---
 
-## ✨ Features
+## Features
 
 - **Multi-page** React app with React Router (Home, About, Skills, Projects, Experience, Contact)
 - **Interactive Skills page** that explains the *logic* behind every language used (Java, C#, Python, C++, SQL, JavaScript, HTML/CSS)
@@ -17,7 +17,7 @@ A modern, multi-page portfolio for **Nqobizitha Mbuyisa**, Junior Software Engin
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Tools |
 |---|---|
@@ -29,7 +29,7 @@ A modern, multi-page portfolio for **Nqobizitha Mbuyisa**, Junior Software Engin
 
 ---
 
-## 📁 Project structure
+## Project structure
 
 ```
 .
@@ -48,9 +48,7 @@ A modern, multi-page portfolio for **Nqobizitha Mbuyisa**, Junior Software Engin
 └── README.md
 ```
 
----
-
-## ✏️ How to update the content
+## How to update the content
 
 **Everything portfolio-related lives in one file:** `frontend/src/data/portfolioData.js`.
 
@@ -68,7 +66,7 @@ Images can be hosted anywhere (Cloudinary, Imgur) or dropped in `frontend/public
 
 ---
 
-## 🚀 Local development
+## Local development
 
 ### Prerequisites
 - Node 18+, Yarn
@@ -93,11 +91,7 @@ yarn install
 yarn start
 ```
 
-Open http://localhost:3000.
-
----
-
-## 🌍 Production deployment
+## Production deployment
 
 ### 1. MongoDB Atlas (free)
 1. Create or reuse an M0 cluster.
@@ -126,7 +120,7 @@ emailjs.com → Account → Security → restrict by domain to your Vercel URL.
 
 ---
 
-## 📨 Contact API
+##  Contact API
 
 | Method | Path | Purpose |
 |---|---|---|
@@ -134,9 +128,5 @@ emailjs.com → Account → Security → restrict by domain to your Vercel URL.
 | `GET` | `/api/contact/messages?limit=50` | List recent submissions |
 | `GET` | `/api/contact/stats` | `{ total, last_24h, last_7d }` |
 
----
-
-## 📝 License
 
 All content (CV, project descriptions, photos) © Nqobizitha Mbuyisa.
-Feel free to fork the *code* as a starting point for your own portfolio — but please replace the personal details with your own.
