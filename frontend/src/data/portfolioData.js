@@ -14,7 +14,7 @@ export const profile = {
   legacyPortfolio: "https://nqobizitha04mbuyisa.github.io/My-Portfolio/",
   // PROFILE IMAGE: replace with your own when ready, e.g. "/images/profile.jpg"
   Image: "frontend/public/NqobizithaImage.jpeg",
-  resumeUrl: "", // replace with your hosted CV PDF link
+  resumeUrl: "frontend/public/NQOBIZITHAMBUYISA_CV.pdf", // replace with your hosted CV PDF link
   available: true,
 };
 
