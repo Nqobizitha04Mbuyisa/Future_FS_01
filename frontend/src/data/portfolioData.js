@@ -20,7 +20,7 @@ export const profile = {
 export const summary = `Junior Software Engineer specializing in Java backend development, with a strong foundation in computer science and Information Technology. Hands-on experience building database-driven applications and designing RESTful systems using Java, SQL, and modern development tools. Passionate about writing clean, maintainable code and building scalable solutions to real-world problems.`;
 
 export const aboutLong = [
-  "I'm a Junior Software Engineer with a Bachelor of Science in Computer Science & IT from the University of KwaZulu-Natal. My focus is backend development the parts of an application most users never see, but absolutely depend on every second.",
+  "I am a Junior Software Engineer with a Bachelor of Science in Computer Science & IT from the University of KwaZulu-Natal. My focus is backend development the parts of an application most users never see, but absolutely depend on every second.",
   "I love turning fuzzy real-world problems into structured systems: a clear database schema, a clean REST contract, predictable error handling, and code that the next developer (often future me) can read without flinching.",
   "Outside of building, I obsess over fundamentals data structures, algorithms, OOP, and system design \u2014 because shortcuts there cost you later. I'm currently looking for a junior backend role where I can ship real software and grow fast.",
 ];
@@ -33,15 +33,15 @@ export const languages = [
     category: "Primary",
     summary: "My main backend language. JVM-based, statically typed, OOP-first.",
     why: "Strong typing catches bugs at compile time; mature ecosystem (Spring, JDBC, JUnit) makes building enterprise APIs straightforward.",
-    usedFor: ["REST APIs", "Database-driven apps", "Final year project", "Console tools"],
+    usedFor: ["REST APIs", "Database-driven apps", "Academic projects", "Console tools"],
   },
   {
     name: "C#",
     level: 75,
     category: "Backend",
-    summary: "Microsoft's flagship language for the .NET runtime \u2014 close cousin to Java.",
+    summary: "Microsoft's flagship language for the .NET runtime close cousin to Java.",
     why: "Excellent for desktop GUIs (WinForms/WPF) and ASP.NET web APIs. Used it for event-driven desktop applications.",
-    usedFor: ["Desktop apps (event-driven)", ".NET REST endpoints", "OOP modeling"],
+    usedFor: ["final year Project", "Desktop apps (event-driven)", ".NET REST endpoints", "OOP modeling"],
   },
   {
     name: "Python",
@@ -53,31 +53,31 @@ export const languages = [
   },
   {
     name: "C++",
-    level: 60,
+    level: 70,
     category: "Systems",
     summary: "Low-level, high-performance language with manual memory control.",
-    why: "Taught me what really happens under the hood \u2014 pointers, references, memory layout. Makes me a better high-level programmer.",
-    usedFor: ["Data structures coursework", "Performance-sensitive console apps"],
+    why: "Taught me what really happens under the hood  pointers, references, memory layout. Makes me a better high-level programmer.",
+    usedFor: ["Final year Desktop App", "Data structures coursework", "Performance-sensitive console apps"],
   },
   {
     name: "SQL",
     level: 85,
     category: "Data",
-    summary: "The lingua franca of relational databases.",
+    summary: "The backbone of relational databases.",
     why: "Almost every backend touches a database. Optimized queries and well-designed schemas (ERDs) are a non-negotiable for me.",
-    usedFor: ["MySQL queries", "Schema design (ERD)", "CRUD operations"],
+    usedFor: ["SQL queries", "Schema design (ERD)", "CRUD operations"],
   },
   {
     name: "JavaScript",
-    level: 65,
+    level: 50,
     category: "Web",
     summary: "The language of the browser. Dynamic, flexible, ubiquitous.",
-    why: "Even backend devs need it \u2014 to wire up frontends, build admin panels, and ship full-stack projects like this site.",
+    why: "Even backend devs need it to wire up frontends, build admin panels, and ship full-stack projects like this site.",
     usedFor: ["Frontend interactivity", "Portfolio websites"],
   },
   {
     name: "HTML & CSS",
-    level: 75,
+    level: 80,
     category: "Web",
     summary: "The structure and skin of the web.",
     why: "Semantic HTML + responsive CSS turn ideas into real, accessible pages. Foundation for any web work.",
@@ -92,7 +92,7 @@ export const skillGroups = [
   },
   {
     title: "Databases",
-    items: ["SQL", "MySQL", "MongoDB", "Schema Design (ERD)"],
+    items: ["SQL", "MongoDB", "Schema Design (ERD)"],
   },
   {
     title: "Tools & Workflow",
@@ -120,10 +120,9 @@ export const projects = [
       "Authentication & role-based access control",
       "Optimized SQL queries with indexing strategy",
       "UML system architecture + ERD database design",
-      "Modular, testable Java codebase",
+      "Modular, testable c# codebase",
     ],
-    // PROJECT IMAGE: replace with /images/projects/ims.jpg or hosted url
-    projectUrl: "/StyleCutz-Barbershop-Booking-System-Project.zip",
+    image: "/CSharpProjectImage.png",
     repo: "https://github.com/Nqobizitha04Mbuyisa",
     //demo: "",
   },
@@ -133,18 +132,18 @@ export const projects = [
     label: "Desktop GUI",
     year: "2024",
     role: "Developer",
-    stack: ["C#", ".NET", "OOP"],
+    stack: ["C++", "QtCreater", "miniGame"],
     summary:
       "GUI desktop application with strong input validation, structured error handling, and a modular OOP architecture.",
     description:
-      "Built using event-driven programming. Focus was on robustness \u2014 every user interaction is validated, every failure path is handled, and the codebase is split into cohesive modules.",
+      "Built using event-driven programming. Focus was on robustness every user interaction is validated, every failure path is handled, and the codebase is split into cohesive modules.",
     highlights: [
       "Event-driven UI logic",
       "Input validation + error handling",
       "Clean OOP separation of concerns",
       "Maintainable, modular codebase",
     ],
-    image: "",
+    image: "/desktopC++Project.png",
     repo: "https://github.com/Nqobizitha04Mbuyisa",
     demo: "",
   },
@@ -164,7 +163,7 @@ export const projects = [
       "Live GitHub Pages deployment",
       "Clean version control history",
     ],
-    image: "",
+    image: "/myFirstPortfolio.png",
     repo: "https://github.com/Nqobizitha04Mbuyisa",
     demo: "https://nqobizitha04mbuyisa.github.io/My-Portfolio/",
   },
@@ -194,7 +193,7 @@ export const projects = [
 export const experience = [
   {
     role: "Full-stack Developer",
-    org: "Final Year Project \u2014 Information Management System",
+    org: "Final Year Project Information Management System",
     period: "2024",
     type: "Academic",
     bullets: [
@@ -206,9 +205,9 @@ export const experience = [
   },
   {
     role: "Desktop Application Developer",
-    org: "Coursework Project \u2014 Event-Driven GUI App",
+    org: "Coursework Project Event-Driven GUI App",
     period: "2024",
-    type: "Project",
+    type: "Academic",
     bullets: [
       "Developed a GUI desktop application using event-driven programming.",
       "Implemented input validation, data processing and error handling.",
@@ -218,7 +217,7 @@ export const experience = [
   {
     role: "Web Developer (Personal Project)",
     org: "Personal Developer Portfolio",
-    period: "2024",
+    period: "2025",
     type: "Self-driven",
     bullets: [
       "Designed and deployed a responsive portfolio website.",
@@ -228,8 +227,8 @@ export const experience = [
   },
   {
     role: "Contributor & Systems Designer",
-    org: "University Group Projects",
-    period: "2022 \u2013 2024",
+    org: "University Projects",
+    period: "2022 - 2024",
     type: "Collaboration",
     bullets: [
       "Built console applications in Java, Python, C# and C++.",
@@ -252,7 +251,7 @@ export const certifications = [
   {
     name: "AWS Cloud Practitioner Essentials",
     issuer: "Amazon Web Services",
-    year: "2024",
+    year: "2026",
   },
 ];
 
