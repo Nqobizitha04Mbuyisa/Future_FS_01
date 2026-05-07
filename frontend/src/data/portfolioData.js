@@ -12,18 +12,17 @@ export const profile = {
   github: "https://github.com/Nqobizitha04Mbuyisa",
   githubHandle: "Nqobizitha04Mbuyisa",
   legacyPortfolio: "https://nqobizitha04mbuyisa.github.io/My-Portfolio/",
-  // PROFILE IMAGE: replace with your own when ready, e.g. "/images/profile.jpg"
   avatarImage: "/NqobizithaImage.jpeg",
-  resumeUrl: "/NQOBIZITHAMBUYISA_CV.pdf", // replace with your hosted CV PDF link
+  resumeUrl: "/NQOBIZITHAMBUYISA_CV.pdf",
   available: true,
 };
 
 export const summary = `Junior Software Engineer specializing in Java backend development, with a strong foundation in computer science and Information Technology. Hands-on experience building database-driven applications and designing RESTful systems using Java, SQL, and modern development tools. Passionate about writing clean, maintainable code and building scalable solutions to real-world problems.`;
 
 export const aboutLong = [
-  "I'm a Junior Software Engineer with a Bachelor of Science in Computer Science & IT from the University of KwaZulu-Natal. My focus is backend development \u2014 the parts of an application most users never see, but absolutely depend on every second.",
+  "I'm a Junior Software Engineer with a Bachelor of Science in Computer Science & IT from the University of KwaZulu-Natal. My focus is backend development the parts of an application most users never see, but absolutely depend on every second.",
   "I love turning fuzzy real-world problems into structured systems: a clear database schema, a clean REST contract, predictable error handling, and code that the next developer (often future me) can read without flinching.",
-  "Outside of building, I obsess over fundamentals \u2014 data structures, algorithms, OOP, and system design \u2014 because shortcuts there cost you later. I'm currently looking for a junior backend role where I can ship real software and grow fast.",
+  "Outside of building, I obsess over fundamentals data structures, algorithms, OOP, and system design \u2014 because shortcuts there cost you later. I'm currently looking for a junior backend role where I can ship real software and grow fast.",
 ];
 
 // Languages section: this is the "highlights all the languages and logic" section requested.
