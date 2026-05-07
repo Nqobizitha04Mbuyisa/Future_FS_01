@@ -184,7 +184,7 @@ export const projects = [
       "Side-by-side language comparison",
       "Group projects via Git + Agile",
     ],
-    image: "",
+    image: "Will be added",
     repo: "https://github.com/Nqobizitha04Mbuyisa",
     demo: "",
   },
