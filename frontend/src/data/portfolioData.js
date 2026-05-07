@@ -111,11 +111,11 @@ export const projects = [
     label: "Final Year Project",
     year: "2024",
     role: "Full-stack Developer",
-    stack: ["Java", "MySQL", "REST", "JDBC"],
+    stack: ["c#", "SQL", "Visual Basic", "SDLC" , "PowerBI"],
     summary:
       "A full-stack, database-driven system with authentication, role-based access control, and CRUD over a normalized schema.",
     description:
-      "Designed system architecture (UML) and database schema (ERD), implemented authentication and RBAC, and built CRUD endpoints with optimized SQL queries. The kind of unsexy backend that quietly keeps an organization running.",
+      "Designed system architecture (UML) and database schema (ERD), implemented authentication, and built CRUD endpoints with optimized SQL queries. The kind of unsexy backend that quietly keeps an organization running.",
     highlights: [
       "Authentication & role-based access control",
       "Optimized SQL queries with indexing strategy",
@@ -123,9 +123,9 @@ export const projects = [
       "Modular, testable Java codebase",
     ],
     // PROJECT IMAGE: replace with /images/projects/ims.jpg or hosted url
-    image: "",
+    projectUrl: "/StyleCutz-Barbershop-Booking-System-Project.zip",
     repo: "https://github.com/Nqobizitha04Mbuyisa",
-    demo: "",
+    //demo: "",
   },
   {
     id: "desktop-app",
