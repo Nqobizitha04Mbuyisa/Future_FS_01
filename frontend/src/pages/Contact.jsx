@@ -263,7 +263,7 @@ const Contact = () => {
                         name="name"
                         value={form.name}
                         onChange={handleChange}
-                        placeholder="Ada Lovelace"
+                        placeholder="Nqobizitha Mbuyisa"
                         className="bg-secondary/40 border-border focus-visible:ring-primary"
                       />
                       {errors.name && (
@@ -298,7 +298,7 @@ const Contact = () => {
                       name="subject"
                       value={form.subject}
                       onChange={handleChange}
-                      placeholder="Junior backend role at Acme Co."
+                      placeholder="Junior backend role at companyName."
                       className="bg-secondary/40 border-border focus-visible:ring-primary"
                     />
                     {errors.subject && (
@@ -316,7 +316,7 @@ const Contact = () => {
                       value={form.message}
                       onChange={handleChange}
                       rows={6}
-                      placeholder="Tell me a bit about the role, the team, or the problem you'd like me to help solve..."
+                      placeholder="role, the team, or the problem you'd like me to help solve..."
                       className="bg-secondary/40 border-border focus-visible:ring-primary resize-none"
                     />
                     {errors.message && (
