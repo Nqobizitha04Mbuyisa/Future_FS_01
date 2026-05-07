@@ -18,55 +18,23 @@ A modern, multi-page portfolio for **Nqobizitha Mbuyisa**, Junior Software Engin
 ---
 
 ## Tech Stack
-
-| Layer | Tools |
-|---|---|
-| Frontend | React 19, React Router, Tailwind CSS, shadcn/ui, lucide-react |
-| Backend | FastAPI, Pydantic v2, Motor (async Mongo) |
-| Database | MongoDB (Atlas free tier) |
-| Email | EmailJS (browser-based) |
-| Hosting | Vercel (frontend) + Render (backend) + MongoDB Atlas |
+ Frontend - React 19, React Router, Tailwind CSS, shadcn/ui, lucide-react 
+ Backend - FastAPI, Pydantic v2, Motor (async Mongo) 
+ Database - MongoDB (Atlas free tier) 
+ Email - EmailJS (browser-based) 
+ Hosting - Vercel (frontend) + Render (backend) + MongoDB Atlas 
 
 ---
 
 ## Project structure
 
 ```
-.
-├── frontend/                # React app (deploy to Vercel)
-│   ├── src/
-│   │   ├── components/      # Header, Footer, Avatar, etc.
-│   │   ├── pages/           # Home, About, Skills, Projects, Experience, Contact
-│   │   ├── data/portfolioData.js   # SINGLE source of truth — edit this to update content
-│   │   └── mock/mock.js     # localStorage fallback for the contact form
-│   └── .env.example
-├── backend/                 # FastAPI app (deploy to Render)
-│   ├── server.py            # All routes
-│   ├── requirements.txt
-│   ├── runtime.txt          # Pins Python 3.11 for Render
-│   └── .env.example
-└── README.md
-```
 
-## How to update the content
+frontend -> React app (deploy to Vercel)
+src -> components , pages , data/portfolioData , mock/mock.js and env.example
+backend -> server.py(FastAPIapp deployed to Render) , runtime.txt
+README.md
 
-**Everything portfolio-related lives in one file:** `frontend/src/data/portfolioData.js`.
-
-| Edit | Field |
-|---|---|
-| Profile photo | `profile.avatarImage` |
-| Downloadable CV | `profile.resumeUrl` |
-| Tagline / about text | `summary`, `aboutLong` |
-| Add/remove a language | `languages[]` |
-| Add a project | `projects[]` |
-| Add a job | `experience[]` |
-| Education / certifications | `education[]`, `certifications[]` |
-
-Images can be hosted anywhere (Cloudinary, Imgur) or dropped in `frontend/public/images/` and referenced as `/images/profile.jpg`.
-
----
-
-## Local development
 
 ### Prerequisites
 - Node 18+, Yarn
